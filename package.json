@@ -1,0 +1,29 @@
+{
+  "name": "cross-domain",
+  "version": "1.0.0",
+  "description": "some usual way to cross domain",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http-proxy-middleware": "^0.17.4",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zheyizhifeng/cross_domain_exercise.git"
+  },
+  "keywords": [
+    "cross",
+    "domain"
+  ],
+  "author": "lucida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zheyizhifeng/cross_domain_exercise/issues"
+  },
+  "homepage": "https://github.com/zheyizhifeng/cross_domain_exercise#readme"
+}
