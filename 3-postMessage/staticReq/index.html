@@ -36,7 +36,7 @@
 
     btn.onclick = function () {
         var msg = input.value;
-        frame.postMessage('收到信息：' + msg + ' --from 3000 port！😨', 'http://localhost:3001');
+        frame.postMessage('post信息：' + msg + ' --from 3000 port！😨', 'http://localhost:3001');
     }
 
     function receiveMessage (event) {

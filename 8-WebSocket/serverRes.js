@@ -1,4 +1,3 @@
-var app = require('express')();
 var server = require('http').createServer();
 var io = require('socket.io')(server);
 
